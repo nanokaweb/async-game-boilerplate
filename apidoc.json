@@ -1,0 +1,19 @@
+{
+  "name": "apidoc-asyncgame",
+  "version": "1.0.0",
+  "description": "apiDoc async game",
+  "title": "apidoc-asyncgame",
+  "url" : "https://asyncgame.nanoka.fr/api",
+  "samplUrl" : "https://asyncgame.nanoka.fr/api",
+  "order": [
+    "GetUser",
+    "GetUserOpponents",
+    "StoreUser",
+    "UpdateUser",
+    "UpdateUserCoins"
+  ],
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}

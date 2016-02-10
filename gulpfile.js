@@ -1,4 +1,15 @@
-var elixir = require('laravel-elixir');
+var gulp = require('gulp'),
+    elixir = require('laravel-elixir'),
+    apidoc = require('gulp-apidoc');
+
+gulp.task('apidoc', function (done) {
+    apidoc({
+        src: "./",
+        dest: "apidoc/",
+        debug: true,
+        includeFilters: ["vendor/nanokaweb/async-game/src/Api/.*"]
+    }, done);
+});
 
 /*
  |--------------------------------------------------------------------------
@@ -11,6 +22,7 @@ var elixir = require('laravel-elixir');
  |
  */
 
-elixir(function(mix) {
+elixir(function (mix) {
     mix.sass('app.scss');
+    mix.task('apidoc', ['vendor/nanokaweb/async-game/src/Api/**/**', 'apidoc.json']);
 });
