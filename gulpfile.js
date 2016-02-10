@@ -23,6 +23,5 @@ gulp.task('apidoc', function (done) {
  */
 
 elixir(function (mix) {
-    mix.sass('app.scss');
     mix.task('apidoc', ['vendor/nanokaweb/async-game/src/Api/**/**', 'apidoc.json']);
 });
