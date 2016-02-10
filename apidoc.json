@@ -4,8 +4,9 @@
   "description": "apiDoc async game",
   "title": "apidoc-asyncgame",
   "url" : "https://asyncgame.nanoka.fr/api",
-  "samplUrl" : "https://asyncgame.nanoka.fr/api",
   "order": [
+    "AuthSignup",
+    "AuthLogin",
     "GetUser",
     "GetUserOpponents",
     "StoreUser",
