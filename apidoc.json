@@ -5,13 +5,27 @@
   "title": "apidoc-asyncgame",
   "url" : "https://asyncgame.nanoka.fr/api",
   "order": [
+    "Authentication",
+    "User_Basic",
+    "User_Extra",
+    "Seeds",
+
     "AuthSignup",
     "AuthLogin",
+    "AuthLogin",
+
+    "GetMe",
+    "UpdateMe",
+    "UpdateMyCoins",
+    "GetMyOpponents",
+
     "GetUser",
     "GetUserOpponents",
     "StoreUser",
     "UpdateUser",
-    "UpdateUserCoins"
+    "UpdateUserCoins",
+
+    "GetSeedGames"
   ],
   "template": {
     "withCompare": true,
