@@ -9,7 +9,9 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "nanokaweb/async-game": "dev-master"
+        "nanokaweb/async-game": "dev-master",
+        "vinkla/hashids": "~2.2"
+
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

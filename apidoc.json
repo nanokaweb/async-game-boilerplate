@@ -25,7 +25,9 @@
     "UpdateUser",
     "UpdateUserCoins",
 
-    "GetSeedGames"
+    "SearchSeeds",
+    "GetSeedGames",
+    "StoreSeedGame"
   ],
   "template": {
     "withCompare": true,
